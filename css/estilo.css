@@ -45,6 +45,8 @@ padding: 0px;
 }
 
 /*TESTANDO RESPONSIVIDADE */
+  
+foto de coxinha tremenda
 
 
 .social{
@@ -113,4 +115,84 @@ padding: 0px;
 }
 
 
+
+/*TEXTO H1*/
+
+.a99{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: black;
+
+}
+
+/*TRATAMENTO DO SLIDE SHOW*/
+
+.mySlides{
+    display: none;
+}
+
+.slideshow-conteiner{
+    display:flex;
+    justify-content: center;
+    max-width: auto;
+    position: relative;
+}
+
+
+.numbertext{
+    color: #863461;
+    font-size: 18px;
+    padding: 10px 10px;
+    position: absolute;
+    top: 0%;
+}
+
+.text{
+    color: whitesmoke;
+    font-size: 22px;
+    padding: 10px 10px;
+    bottom: 8px;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    
+}
+
+.dot{
+    height: 15px;
+    width: 15px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    
+}
+
+.active{
+    background-color: grey;
+}
+
+.fade{
+    animation-name: fade;
+    animation: 1.5s;
+}
+
+
+/*RECEITA BOX*/
+
+.container-receitas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+@keyframes fade{
+    from{opacity: 0.4;}
+    to{opacity: 1;}
+
+} 
 @import url('https://fonts.cdnfonts.com/css/curely');
