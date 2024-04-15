@@ -1,0 +1,64 @@
+/*TRATANDO IMAGENS NO CSS*/
+
+
+.lista-receitas1{
+    display: flex;
+    justify-content: space-around;
+    width:auto ;
+    height:auto ;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.lista-receitas2{
+    display: flex;
+    justify-content: space-around;
+    width:auto ;
+    height:auto ;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.lista-receitas3{
+    display: flex;
+    justify-content: space-around;
+    width:auto ;
+    height:auto ;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.receitabox{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 18px;
+    width: 300px;
+    background-color:bisque;
+    border-radius: 40px;
+    margin-bottom: 80px;
+}
+
+.receitabox :hover{
+    opacity: 0.7;
+}
+
+.receitabox a:visited{
+color: black;
+}
+
+a{ 
+    text-decoration:  none;
+
+}
+
+
+.receita-imagem{
+    border-radius: 40px;
+
+}
+
+/*centralizando o texto*/
+
+.overlay{
+    text-align: center;
+}
